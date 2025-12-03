@@ -7,7 +7,7 @@ if not TOKEN:
     print("HIBA: A 'TOKEN' környezeti változó nincs beállítva. A bot nem indul el.")
     exit()
 
-TARGET_USER_ID = 217390116728078336 
+TARGET_USER_ID = 381205842378096642 
 
 FIX_NICKNAME = "Átnevezés Blokkálva" 
 
@@ -42,4 +42,5 @@ async def on_member_update(before, after):
 
 
 keep_alive() 
+
 client.run(TOKEN)
