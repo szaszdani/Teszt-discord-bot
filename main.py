@@ -9,7 +9,7 @@ if not TOKEN:
 
 TARGET_USER_ID = 381205842378096642 
 
-FIX_NICKNAME = "Átnevezés Blokkálva" 
+FIX_NICKNAME = "Trashtappen" 
 
 intents = discord.Intents.default()
 intents.members = True 
@@ -44,3 +44,4 @@ async def on_member_update(before, after):
 keep_alive() 
 
 client.run(TOKEN)
+
